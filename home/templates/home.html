@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="container">
+    <div class="row mt-5 pt-5">
+        <div class="col-md-4">
+            <label>Enter Pincode</label>
+            <input class="form-control" type="text" placeholder="Enter pincode">
+        </div>
+        <div class="col-md-4">
+            <label>Select KM</label>
+            <select class="form-control">
+                <option value="1">1 KM</option>
+                <option value="2">2 KM</option>
+            </select>
+        </div>
+        <div class="col-md-4">
+            <button class="btn btn-success mt-4">Submit</button>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid" >
+    <div class="row mt-5 pt-5">
+        <div class="col-md-4">
+            <div class="card shadow-lg bg-secondary" style="width: 18rem;">
+                <img src="https://images.pexels.com/photos/3201920/pexels-photo-3201920.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">GRAND HAYATT</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">5 KM</a>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
